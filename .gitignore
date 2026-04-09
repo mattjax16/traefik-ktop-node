@@ -1,0 +1,133 @@
+# =========================
+# OS FILES
+# =========================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# =========================
+# EDITORS / IDEs
+# =========================
+
+# VS Code
+.vscode/
+
+# JetBrains (IntelliJ, CLion, PyCharm, etc.)
+.idea/
+*.iml
+
+# Vim
+*.swp
+*.swo
+
+# Emacs
+*~
+
+# =========================
+# LOGS / TEMP FILES
+# =========================
+
+*.log
+*.tmp
+*.temp
+*.cache
+
+# =========================
+# ENV / SECRETS ⚠️
+# =========================
+
+.env
+.env.*
+*.env
+
+# Keys / certs
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# =========================
+# BUILD / OUTPUT
+# =========================
+
+build/
+dist/
+out/
+target/
+
+# Node
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+
+# C/C++
+*.o
+*.out
+*.exe
+
+# =========================
+# MISC
+# =========================
+
+*.bak
+*.backup
+*.old
+
+
+# =========================
+# ANSIBLE
+# =========================
+
+# Vault passwords / secrets ⚠️
+.vault_pass
+vault_pass.txt
+*.vault
+
+# Retry files (created when a play fails)
+*.retry
+
+# Logs
+ansible.log
+
+# Facts cache (if using jsonfile/redis/etc.)
+.fact_cache/
+facts_cache/
+*.fact
+
+# Inventory backups / temp
+inventory.bak
+inventory.ini.bak
+
+# Roles downloaded via ansible-galaxy
+roles/
+
+# Collections (if installed locally)
+collections/
+
+# Molecule (testing framework)
+.molecule/
+.molecule_cache/
+
+# Python virtual envs (common with ansible setups)
+.venv/
+venv/
+
+# SSH artifacts (sometimes accidentally generated)
+*.retry
+*.pem
